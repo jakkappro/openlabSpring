@@ -1,4 +1,6 @@
-import Model.Employee;
+package org.kubino.demo;
+
+import org.kubino.demo.Model.Employee;
 
 import java.util.List;
 

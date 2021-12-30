@@ -1,4 +1,4 @@
-package Model;
+package org.kubino.demo.Model;
 
 public abstract class Employee {
     float salary;
