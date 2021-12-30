@@ -1,6 +1,5 @@
 package org.kubino.demo.Model;
 
-import java.util.Locale;
 
 public class Programmer extends Employee {
 
