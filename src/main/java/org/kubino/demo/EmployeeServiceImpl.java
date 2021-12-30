@@ -8,6 +8,11 @@ import java.util.List;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService{
+    private int callCounter = 0;
+
+    public EmployeeServiceImpl() {
+        writeNumber();
+    }
 
     @Bean
     @Override
@@ -19,5 +24,9 @@ public class EmployeeServiceImpl implements EmployeeService{
     @Override
     public int totalSumOfBonuses(List<Employee> list) {
         return list.stream().mapToInt(Employee::getBonus).sum();
+    }
+
+    public int writeNumber() {
+        return ++callCounter;
     }
 }

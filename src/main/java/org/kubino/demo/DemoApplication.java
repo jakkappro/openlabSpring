@@ -1,6 +1,5 @@
 package org.kubino.demo;
 
-import org.kubino.demo.Model.DependencyInjectorDemo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
